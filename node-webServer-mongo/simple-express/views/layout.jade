@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title #{title}: Built with Node
+    meta( charset='utf-8')
+    meta( http-equiv='X-UA-Compatible')
+    meta( name= 'viewport', content='width=device-width, intial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+  body
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#') Project A
+        #navbar.collapse.navbar-collapse
+          ul.nav.navbar-nav.nav-bar-right
+            li(class=(title === 'Project A' ? 'active' : ''))
+              a(href='/') Home
+            li(class=(title === 'About' ? 'active' : ''))
+              a(href='/about') About
+            li(class=(title === 'Contact' ? 'active' : ''))
+              a(href='/contact') Contact
+    block content
+    footer
+      p &copy; 2015, All Rights Reserved
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='../../dist/js/bootstrap.min.js')
