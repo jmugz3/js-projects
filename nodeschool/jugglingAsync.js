@@ -1,38 +1,48 @@
 var urls = [process.argv[2], process.argv[3], process.argv[4]]
 var http = require('http');
-//var bl = require('bl');
-var count = 0;
+var bl = require('bl');
+var totalData = [];
 
 
-console.log(urls);
-
-var collect = function(url){
+var collect = function(urls){
   var data = '';
-  var totalData = [];
+
+
 
   for (var i = 0 ; i < urls.length; i++)
   {
-    http.get(url, function(res){
-      res.setEncoding('utf-8');
-      res.on('data', (chunk) => { data += chunk; });
-      res.on('end', function(){
-        console.log(data);
-        //totalData.push(data);
-        count++;
-      });
+    //console.log(urls[i]);
+    http.get(urls[i], (res) => {
+      //res.setEncoding('utf-8');
+      // res.on('data', (chunk) => {
+      //   data += chunk;
+      //   //console.log(data);
+      // });
+      // res.on('end', () => {
+      //   totalData.push(data);
+      //   // callback(null, totalData);
+      // });
+      // res.on('error', (err)=>{
+      //   console.error('Error: ' + err.message);
+      //   // callback(err, null);
+      // });
+      res.pipe(bl(function(err,data){
+        if (err) return console.error(err.message);
+
+        totalData[i] = data.toString();
+        printResults(totalData[i]);
+
+      }));
+
     });
   }
-  return totalData;
 }
 
+collect(urls);
 
-function DisplayResults(results){
-  if (count === urls.length){
-    results.forEach(function(result){
-      console.log(result);
-    });
-  }
+
+function printResults(item, index){
+
+    console.log(item);
+
 }
-
-var results = collect(urls);
-DisplayResults(results);
