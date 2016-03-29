@@ -11,7 +11,9 @@
 
 - Started exercises
 
+### functional-javascript
 
+- Started exercises
 
 ### next : stream_adventure
 
