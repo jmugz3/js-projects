@@ -1,6 +1,6 @@
 ## nodeschool
 
-### learnyounode (100% complete)
+### learnyounode
 
 - 100% completed all the learnyounode exercises,
 - Needs:
