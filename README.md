@@ -1,9 +1,10 @@
-# nodejs-training
+# nodejs-projects
+
 My projects and training using node js
 
-- node-express: A first look at express
+- node-express: A first look at [express](http://expressjs.com/)
 
-- node-webServer-mongo: A simple express application that sends mail using nodeMailer and connects to mongo
+- node-webServer-mongo: A simple express application that sends mail using [nodeMailer](https://nodemailer.com/) and connects to [mongodb](https://www.mongodb.org/)
 
 - nodeauth: An application that user authentication and encrypts password with Bcrypt.
 
