@@ -10,6 +10,7 @@
 ### scope-chain-closures
 
 - 100% completed
+  ![scope-chain-closures](https://raw.githubusercontent.com/jmugz3/nodejs-projects/master/nodeschool/sccjs.png)
 - Needs ES6 refactoring
 
 ### functional-javascript
