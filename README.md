@@ -9,4 +9,4 @@ My projects and training using node js
 
 - nodeblog: A blog built with authentication, user posts, and authentication.
 
-- nodeschool: Contains my solution for the learnyounode package from nodeschool.
+- nodeschool: Contains solutions for the packages from [nodeschool](//http://nodeschool.io).
