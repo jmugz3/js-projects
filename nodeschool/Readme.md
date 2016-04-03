@@ -11,7 +11,7 @@
 
 - 100% completed
 
-<img src="scope-chains-closures/sccjs.png" alt="scope-chain-closures" width="100" height="100"/>
+<img src="scope-chains-closures/sccjs.png" alt="scope-chain-closures" width="200" height="200"/>
   
 - Needs ES6 refactoring
 
