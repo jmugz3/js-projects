@@ -10,7 +10,7 @@
 ### scope-chain-closures
 
 - 100% completed
-    <img src="scope-chains-closures/sccjs.png" alt="scope-chain-closures" style="width: 100px;"/>
+    <img src="scope-chains-closures/sccjs.png" alt="scope-chain-closures" style="width: 100px; height: 100px;"/>
   
 - Needs ES6 refactoring
 
