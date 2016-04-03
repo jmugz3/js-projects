@@ -10,7 +10,7 @@
 ### scope-chain-closures
 
 - 100% completed
-    ![scope-chain-closures](nodejs-projects/master/nodeschool/sccjs.png?raw=true "scope-chain-closures")
+    ![scope-chain-closures](/sccjs.png?raw=true "scope-chain-closures")
   
 - Needs ES6 refactoring
 
