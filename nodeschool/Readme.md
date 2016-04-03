@@ -9,10 +9,9 @@
   
 ### scope-chain-closures
 
-- 100% completed
-
 <img src="scope-chains-closures/sccjs.png" alt="scope-chain-closures" width="500" height="200"/>
-  
+
+- 100% completed
 - Needs ES6 refactoring
 
 ### functional-javascript
