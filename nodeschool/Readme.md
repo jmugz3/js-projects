@@ -10,7 +10,7 @@
 ### scope-chain-closures
 
 - 100% completed
-    ![scope-chain-closures](scope-chains-closures/sccjs.png?raw=true "scope-chain-closures")
+    ![scope-chain-closures](scope-chains-closures/sccjs.png "scope-chain-closures")
   
 - Needs ES6 refactoring
 
