@@ -21,6 +21,12 @@ app.get('/', function (req, res){
   res.send("Welcome to my REST API");
 });
 
+app.get('/error/:route', function(req, res){
+   res.status(404).send('The %s does not exists. You will be redirected',req.param.route);
+   res.redirect('/');
+   res.end();
+});
+
 
 app.listen(port, function (req, res) {
    console.log("Gulp is running my app on port " + port);
