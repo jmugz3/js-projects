@@ -17,6 +17,11 @@ var testRouter = require('./routes/testRoutes')(Test);
 app.use('/api/tests', testRouter);
 
 
+app.all('/api', function(req, res, next){
+   console.log(req.method, ' request for /api');
+   next();
+});
+
 app.get('/', function (req, res){
   res.send("Welcome to my REST API");
 });
