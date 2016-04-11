@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 var testRouter = require('./routes/testRoutes')(Test);
 app.use('/api/tests', testRouter);
 
+app.use(express.static(__dirname, + '/public'));
 
 app.all('/api', function(req, res, next){
    console.log(req.method, ' request for /api');
