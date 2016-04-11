@@ -1,0 +1,24 @@
+{
+  "name": "rest-test",
+  "version": "0.1.0",
+  "description": "A RESTful application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmugz3/nodejs-projects.git"
+  },
+  "keywords": [
+    "restful",
+    "node",
+    "aws"
+  ],
+  "author": "Jose Mugaburu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmugz3/nodejs-projects/issues"
+  },
+  "homepage": "https://github.com/jmugz3/nodejs-projects#readme"
+}
