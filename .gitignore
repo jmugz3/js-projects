@@ -39,4 +39,4 @@ Thumbs.db
 ##########
 .idea/
 node_modules/
-.vs_code/
+.vscode/
