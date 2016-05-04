@@ -1,7 +1,7 @@
 {
   "name": "rest-test",
   "version": "0.1.0",
-  "description": "A RESTful application",
+  "description": "A RESTful application with route testing",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon dist/app.js",
