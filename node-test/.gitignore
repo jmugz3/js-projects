@@ -1,0 +1,5 @@
+node_modules/
+private/
+connect.sh
+.DS_Store
+dist/
