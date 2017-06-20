@@ -18,3 +18,4 @@ My projects and training using node js
 
 - rest-test: A project that uses common standards to test REST APIs
 
+- js-basics: js exercises for enterprise js training
