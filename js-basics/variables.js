@@ -1,3 +1,7 @@
+/**
+ * Covers variables and comments
+ */
+
 var x = "test";
 console.log(x);
 
@@ -13,3 +17,6 @@ console.log(y);
  * You need node.js, a REPL, or the JS console.
  * Alt: Phantom.js
  */
+
+let a = "abc";
+const b = "234";
