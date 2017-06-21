@@ -17,10 +17,10 @@ var x1;
 var X;
 var X1;
 // What value does each one of these contain? 
-console.log(x); // undefined
+// console.log(x); // undefined
 // console.log(z); // reference error and it stops
-console.log(y);
-console.log(this); //empty object {}, window object in browser console
+// console.log(y);
+// console.log(this); //empty object {}, window object in browser console
 
 // Assignment
 // assigns a value to the variable
@@ -68,11 +68,15 @@ original = '007-1';
 console.log(copy);
 console.log(original);
 
-
 var original2, copy2 = original2 = '007-2';
 console.log(`original2 : ${original2}`);
 orignal2 = '007-fake';
 console.log(`copy: ${copy}`);
+
+// tricky
+var test5 = FOO, FOO = 'learning';
+console.log(`test5 : ${test5}`); //undefined
+
 
 /**
  * Reserved word in Javascript
