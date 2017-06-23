@@ -37,3 +37,12 @@ console.log(Math.PI);
 let pi = Math.PI;
 
 console.log(Math.ceil(pi / 2));
+
+/**
+ * TRICKY
+ */
+
+let test = "foo"
+
+let myResult = test + 5;
+console.log(myResult);
