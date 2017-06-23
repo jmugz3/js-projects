@@ -11,15 +11,23 @@ var x = 3 + 4;
 x = x + 3;
 console.log(x);
 
+/**
+ * MODULO
+ */
 console.log(x % 2 ); //modulo operator
 
-
+/**
+ * SUBSTRACTION
+ */
 var y = 100 - 1;
 
 var z = x - y;
 console.log(z);
 console.log( z % 2);
 
+/**
+ * DIVISION
+ */
 
 var result = z / 2;
 console.log(result);
