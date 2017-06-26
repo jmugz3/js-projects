@@ -1,0 +1,27 @@
+{
+  "name": "js-projects",
+  "version": "1.0.0",
+  "description": "My projects and training using node js",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmugz3/js-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmugz3/js-projects/issues"
+  },
+  "homepage": "https://github.com/jmugz3/js-projects#readme"
+}
