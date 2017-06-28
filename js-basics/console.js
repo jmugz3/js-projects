@@ -1,12 +1,20 @@
 
 /**
- * 
+ *
  * CONSOLE EXAMPLES
- * 
+ *
  */
 
-clear();
+// clear();
 
-confirm("Hello are you there?");
+// confirm("Hello are you there?");
 
-prompt("What is your favorite song?");
+// prompt("What is your favorite song?");
+
+// typeof(window.Infinity);
+
+// window.localStorage;
+
+// window.document;
+
+// window.location.toString();
