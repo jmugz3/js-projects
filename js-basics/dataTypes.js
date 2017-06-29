@@ -62,6 +62,14 @@
  * BOOLEAN
  */
 
+// var true;
+// var false;
+// var x1 = true;
+// typeof(true);
+// true == 1;
+// false == '0';
+
+
 /**
  * OBJECTS
  */
