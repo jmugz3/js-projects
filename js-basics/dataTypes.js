@@ -78,3 +78,12 @@
 /**
  * OBJECTS
  */
+
+// const myObject = {
+//   id: 1,
+//   name: 'root',
+//   isChildren: false,
+//   leaves: [1, 1.5, !this.isChildren, this.id + 2],
+// };
+
+// console.log(myObject);
