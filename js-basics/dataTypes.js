@@ -87,3 +87,12 @@
 // };
 
 // console.log(myObject);
+// let testObject = new Object();
+// console.log(typeof testObject);
+
+// testObject.id = 1;
+// testObject.name = 'root';
+// testObject.isChildren = false;
+// testObject.leaves = [1, 1.5, !this.isChildren, this.id + 2];
+
+// console.log( typeof myObject === typeof testObject);
