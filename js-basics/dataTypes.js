@@ -68,7 +68,12 @@
 // typeof(true);
 // true == 1;
 // false == '0';
-
+// '' == false;
+// '' == []
+// !true
+// !false
+// !"test"
+// !!"test"
 
 /**
  * OBJECTS
