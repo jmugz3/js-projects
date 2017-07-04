@@ -11,6 +11,11 @@ var x = 3 + 4;
 x = x + 3;
 console.log(x);
 
+var first = "Jose"
+first = " Can't you see?"
+console.log(first);
+
+
 /**
  * MODULO
  */
