@@ -1,7 +1,9 @@
 /**
- * Hoisting and Global Scope
+ * Hoisting, Closure and Global Scope
  * 
  */
+
+// CLOSURE accessing variables outside the function scope.
 
 // All declarations hoist to the top in their scope
 // Global, Local and Block
