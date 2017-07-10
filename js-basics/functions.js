@@ -29,3 +29,25 @@ tipCalculate();
 // }
 
 // calculateSubTotal();
+
+let calculator = {
+    numerator: 5,
+    denominator: 15,
+    divide: () => {
+        return this.numerator / this.denominator;
+    }
+}
+
+let divExamples = {
+    numerator: 12,
+    denominator: 144,
+}
+// Both can be called on functions, which they run in the context of the first argument.
+// In call the subsequent arguments are passed in to the function as they are,
+// while apply expects the second argument to be an array 
+// that it unpacks as arguments for the called function.
+calculator.divide.call(divExamples);
+calculator.divide.apply(null, [20,45]);
+
+let maxTest = Math.max.apply(null, [12,34,56]);
+console.log(maxTest);
