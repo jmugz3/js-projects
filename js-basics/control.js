@@ -50,3 +50,10 @@ switch (key) {
     default:
         break;
 }
+
+
+// switch does a strict comparison
+var x = 10;
+switch(x) {
+    case "10": alert("Hello");
+}
