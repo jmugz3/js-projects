@@ -41,3 +41,11 @@ add2(5).then(function(number){
 .catch(function(err){
   console.log(err);
 });
+
+
+// ARRAY OF PROMISES
+
+Promise.all([
+  add2(5),
+  add2(7)
+]);
